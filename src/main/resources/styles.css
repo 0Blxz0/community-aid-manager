@@ -1,0 +1,128 @@
+.root {
+  -fx-font-family: "Segoe UI", Arial, sans-serif;
+  -fx-font-size: 13px;
+  -fx-background-color: #f4f7f6;
+}
+
+.sidebar {
+  -fx-background-color: #153f3a;
+}
+
+.brand-title {
+  -fx-text-fill: white;
+  -fx-font-size: 20px;
+  -fx-font-weight: bold;
+}
+
+.brand-subtitle,
+.sidebar-footer {
+  -fx-text-fill: #b9d7d1;
+}
+
+.nav-button {
+  -fx-background-color: transparent;
+  -fx-text-fill: white;
+  -fx-alignment: center-left;
+  -fx-padding: 11px 14px;
+  -fx-cursor: hand;
+}
+
+.nav-button:hover {
+  -fx-background-color: #24665e;
+}
+
+.page-title {
+  -fx-font-size: 28px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #173f3a;
+}
+
+.page-subtitle,
+.muted-label {
+  -fx-text-fill: #64756f;
+}
+
+.section-title {
+  -fx-font-size: 16px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #234d47;
+}
+
+.content-card,
+.metric-card,
+.score-card {
+  -fx-background-color: white;
+  -fx-background-radius: 8px;
+  -fx-border-color: #dbe6e2;
+  -fx-border-radius: 8px;
+  -fx-padding: 16px;
+}
+
+.metric-card {
+  -fx-min-width: 170px;
+}
+
+.metric-label {
+  -fx-text-fill: #64756f;
+}
+
+.metric-value,
+.score-value {
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #147d6f;
+}
+
+.primary-button {
+  -fx-background-color: #147d6f;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-padding: 9px 16px;
+}
+
+.primary-button:hover {
+  -fx-background-color: #0e695d;
+}
+
+.danger-button {
+  -fx-background-color: #b53b3b;
+  -fx-text-fill: white;
+}
+
+.status-chip {
+  -fx-padding: 6px 12px;
+  -fx-background-radius: 12px;
+  -fx-font-weight: bold;
+}
+
+.priority-status {
+  -fx-background-color: #fee2e2;
+  -fx-text-fill: #991b1b;
+}
+
+.eligible-status {
+  -fx-background-color: #dcfce7;
+  -fx-text-fill: #166534;
+}
+
+.ineligible-status {
+  -fx-background-color: #e5e7eb;
+  -fx-text-fill: #374151;
+}
+
+.status-bar {
+  -fx-background-color: #e7efec;
+  -fx-text-fill: #355a54;
+  -fx-padding: 8px 14px;
+}
+
+.table-view {
+  -fx-background-color: white;
+  -fx-border-color: #dbe6e2;
+}
+
+.text-field,
+.combo-box,
+.date-picker {
+  -fx-min-height: 34px;
+}

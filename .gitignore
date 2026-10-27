@@ -1,0 +1,22 @@
+# sbt / Scala build output
+target/
+project/target/
+project/project/
+.bsp/
+.bloop/
+.metals/
+metals.sbt
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Runtime output
+data/
+reports/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
